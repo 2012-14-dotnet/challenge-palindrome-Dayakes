@@ -1,10 +1,11 @@
-﻿using Palindrome.Domain;
+﻿using System;
+using Palindrome.Domain;
 
 namespace Palindrome.Client
 {
-    public class Program
+    class Program
     {
-        public static void main(string[] args)
+        static void Main(string[] args)
         {
             User user = new User();
             user.GetInput();
