@@ -12,7 +12,7 @@ namespace Palindrome.Domain
         }
         public bool IsPalindrome()
         {
-            string trim = Regex.Replace( Entered, @"s", "" );
+            string trim = Regex.Replace( Entered, " ", "" );
             int min = 0;
             int max = trim.Length - 1;
             while (true)
