@@ -1,8 +1,10 @@
+using System.Text.RegularExpressions;
+
 namespace Palindrome.Domain
 {
     public class User
     {
-        public String Entered { get; set; }
+        public string Entered { get; set; }
         public void GetInput()
         {
             System.Console.WriteLine("Please enter your word or phrase:");
